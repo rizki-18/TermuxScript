@@ -48,8 +48,7 @@ while true; do
     echo -e "${HIJAU}1. Pelacak IP Domain (Metode Host)${NC}"
     echo -e "${HIJAU}2. Hosting / Buat Subdomain Cloudflare${NC}"
     echo -e "${HIJAU}3. Lihat / Hapus Subdomain Cloudflare${NC}"
-    echo -e "${HIJAU}5. Setel / Ubah Token & Domain Cloudflare${NC}" # Menu Tambahan Baru
-    echo -e "${KUNING}4. Kembali Ke Menu Utama${NC}"
+    echo -e "${HIJAU}4. Setel / Ubah Token & Domain Cloudflare${NC}"
     echo -e "${MERAH}0. Exit Menu${NC}"
     echo -e "${CYAN}=================================================${NC}"
     
@@ -235,7 +234,7 @@ while true; do
             echo -e "${UNGU}Tekan [Enter] untuk kembali...${NC}"
             read -s
             ;;
-        5)
+        4)
             clear
             echo -e "${CYAN}=======================================${NC}"
             echo -e "${CYAN}      PENGATURAN KREDENSIAL DOMAIN     ${NC}"
@@ -268,11 +267,6 @@ EOF
             fi
             echo -e "${UNGU}Tekan [Enter] untuk kembali...${NC}"
             read -s
-            ;;
-        4)
-            clear
-            ketik "${HIJAU} Sedang Memuat ...${NC}"
-            source ~/.bashrc
             ;;
         0)
             clear
