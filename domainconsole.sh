@@ -10,7 +10,7 @@ PUTIH='\033[1;37m'
 NC='\033[0m' 
 
 # File penyimpanan konfigurasi rahasia
-CONFIG_FILE="$HOME/.rizki18_domain_config.txt"
+CONFIG_FILE="$HOME/.domain_token.txt"
 
 # Fungsi untuk memuat (load) konfigurasi jika file-nya ada
 load_config() {
