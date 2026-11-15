@@ -65,6 +65,7 @@ while true; do
 
     case $pilihan in
         1)
+            clear
             echo -e "\n${CYAN}[+] FITUR: PENCARI IP METODE PING${NC}"
             echo -e "${CYAN}=========================================${NC}"
             echo -e "${HIJAU} Masukkan Nama Domain Target${NC}"
