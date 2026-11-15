@@ -54,7 +54,7 @@ while true; do
     
     # Indikator status konfigurasi singkat di layar
     if [ -z "$DOMAIN_UTAMA" ] || [ -z "$API_TOKEN" ]; then
-        echo -e "${MERAH}[!] Status: Konfigurasi Cloudflare Belum Disetel! (Pilih Menu 5)${NC}"
+        echo -e "${MERAH}[!] Status: Konfigurasi Cloudflare Belum Disetel! (Pilih Menu 4)${NC}"
     else
         echo -e "${HIJAU}[✓] Status: Terhubung ke Domain ($DOMAIN_UTAMA)${NC}"
     fi
