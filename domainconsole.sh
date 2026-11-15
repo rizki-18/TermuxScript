@@ -239,7 +239,6 @@ while true; do
             echo -e "${CYAN}=======================================${NC}"
             echo -e "${CYAN}      PENGATURAN KREDENSIAL DOMAIN     ${NC}"
             echo -e "${CYAN}=======================================${NC}"
-            echo -e "Konfigurasi saat ini tersimpan di: $CONFIG_FILE\n"
             
             echo -e "${KUNING}Nilai Saat Ini:${NC}"
             echo -e " - Domain Utama : ${PUTIH}${DOMAIN_UTAMA:-'(Belum diisi)'}${NC}"
